@@ -1,0 +1,59 @@
+.navbar{
+    padding: 19px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .logoe{
+    width: 180px;
+}
+.navbar-menu{
+    display: flex;
+    list-style: none;
+    gap: 28px;
+    color: gray;
+    font-size: 18px;
+}
+.navbar-menu li{
+    cursor: pointer;
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.navbar-right .search_img{
+    width: 33px;
+}
+.navbar button{
+    background: transparent;
+    font-size: 16px;
+    border: 1px solid lightcoral;
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.navbar button:hover{
+    background-color: #fff4f2;
+}
+.navbar .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid #49557e;
+    transform: scale(1.08);
+}
+.navbar-search-icon{
+    position: relative;
+}
+.navbar-search-icon .dot{
+    position: absolute;
+    min-width:10px;
+    min-height: 10px;
+    background-color: lightcoral;
+    border-radius: 5px;
+    top: -3px;
+    right: -5px;
+}
+.navbar-search-icon .basket_img{
+    width: 38px;
+}
