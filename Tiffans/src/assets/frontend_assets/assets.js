@@ -1,6 +1,10 @@
 import basket_icon from './basket_icon.png'
 import logo from './logo.png'
 import logoe from './logoe.png'
+import logoss from './logoss.jpg'
+import mrlogo from './mrlogo.png'
+import mrlogod from './mrlogod.png'
+import logosss from './logosss.png'
 import header_img from './header_img.png'
 import search_icon from './search_icon.png'
 import search_icon1 from './search_icon1.png'
@@ -66,6 +70,9 @@ import parcel_icon from './parcel_icon.png'
 export const assets = {
     logo,
     logoe,
+    logoss,
+    mrlogo,
+    mrlogod,
     basket_icon,
     basket_icon1,
     header_img,
